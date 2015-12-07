@@ -1,0 +1,270 @@
+PREFIX vivo: <http://vivoweb.org/ontology/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+
+<https://vivo.ufl.edu/individual/n448829026539> rdfs:label "<br />BioJS 2.0: an open source standard for biological visualization" .
+<https://vivo.ufl.edu/individual/n448829026539> bibo:abstract "BioJS is an open-source, JavaScript-based biological data visualization library. The development of BioJS has been prompted by the growing need for bioinformatics visualisation tools to be shared, reused and discovered. At its core BioJS features an open, inclusive framework to integration of new visualization code (called components) that can easily be combined to create rich and interactive applications. Components can be quickly discovered on the BioJS registry, a searchable and highly descriptive repository that highlights a component usefulness by using a star rating system and a download counter. Applying a modern set of best practices, BioJS makes the process of releasing new components and deploying them to the end user fast and easy. This in turn allows users with only basic computer skills the ability to download BioJS components and use those to inspect and present biological data. Among the 89 currently published (and ready to be used on the web) components, the BioJS library already incorporates a set of commonly used components such as a Cytoscape network viewer, 3D molecule viewer, Multiple Sequence Alignment viewer, Heat map viewer, Phylogenetic tree and BAM file viewers. Some notable bioinformatics resources that have already integrated BioJS components include UniProt, ENSEMBL, PredictProtein, ApiNATOMY and the Galaxy project. Finally, BioJS is also an international community of open source developers that organizes workshops, tutorials, hackathons and participates as a mentoring organization in the Google Summer of Code program. The BioJS registry, source code repository and extensive tutorials and documentation can be acceesed through http://biojs.net/<br />&nbsp;" .
+<https://vivo.ufl.edu/individual/n24263025905> a foaf:Person .
+<https://vivo.ufl.edu/individual/n24263025905> rdfs:label "Guy Yachdav" .
+<https://vivo.ufl.edu/individual/n24263025905> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n865502625511>.
+<https://vivo.ufl.edu/individual/n865502625511> vcard:hasName <https://vivo.ufl.edu/individual/n541874074183> .
+<https://vivo.ufl.edu/individual/n541874074183> vcard:familyName "Yachdav" .
+<https://vivo.ufl.edu/individual/n541874074183> vcard:givenName "Guy" .
+<https://vivo.ufl.edu/individual/n541195167803> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n541195167803> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n24263025905> vivo:relatedBy <https://vivo.ufl.edu/individual/n541195167803> .
+
+<https://vivo.ufl.edu/individual/n750558552275> a foaf:Person .
+<https://vivo.ufl.edu/individual/n750558552275> rdfs:label "Tatyana Goldberg" .
+<https://vivo.ufl.edu/individual/n750558552275> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n619181086442>.
+<https://vivo.ufl.edu/individual/n619181086442> vcard:hasName <https://vivo.ufl.edu/individual/n749748560537> .
+<https://vivo.ufl.edu/individual/n749748560537> vcard:familyName "Goldberg" .
+<https://vivo.ufl.edu/individual/n749748560537> vcard:givenName "Tatyana" .
+<https://vivo.ufl.edu/individual/n014343001167> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n014343001167> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n750558552275> vivo:relatedBy <https://vivo.ufl.edu/individual/n014343001167> .
+
+<https://vivo.ufl.edu/individual/n976844746404> a foaf:Person .
+<https://vivo.ufl.edu/individual/n976844746404> rdfs:label "Sebastian Wilzbach" .
+<https://vivo.ufl.edu/individual/n976844746404> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n806347934797>.
+<https://vivo.ufl.edu/individual/n806347934797> vcard:hasName <https://vivo.ufl.edu/individual/n737358995315> .
+<https://vivo.ufl.edu/individual/n737358995315> vcard:familyName "Wilzbach" .
+<https://vivo.ufl.edu/individual/n737358995315> vcard:givenName "Sebastian" .
+<https://vivo.ufl.edu/individual/n115364788014> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n115364788014> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n976844746404> vivo:relatedBy <https://vivo.ufl.edu/individual/n115364788014> .
+
+<https://vivo.ufl.edu/individual/n511476986995> a foaf:Person .
+<https://vivo.ufl.edu/individual/n511476986995> rdfs:label "David Dao" .
+<https://vivo.ufl.edu/individual/n511476986995> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n309122023536>.
+<https://vivo.ufl.edu/individual/n309122023536> vcard:hasName <https://vivo.ufl.edu/individual/n0570160773855> .
+<https://vivo.ufl.edu/individual/n0570160773855> vcard:familyName "Dao" .
+<https://vivo.ufl.edu/individual/n0570160773855> vcard:givenName "David" .
+<https://vivo.ufl.edu/individual/n962694969742> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n962694969742> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n511476986995> vivo:relatedBy <https://vivo.ufl.edu/individual/n962694969742> .
+
+<https://vivo.ufl.edu/individual/n959712111418> a foaf:Person .
+<https://vivo.ufl.edu/individual/n959712111418> rdfs:label "Iris Shih" .
+<https://vivo.ufl.edu/individual/n959712111418> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n970114094855>.
+<https://vivo.ufl.edu/individual/n970114094855> vcard:hasName <https://vivo.ufl.edu/individual/n00567351684448> .
+<https://vivo.ufl.edu/individual/n00567351684448> vcard:familyName "Shih" .
+<https://vivo.ufl.edu/individual/n00567351684448> vcard:givenName "Iris" .
+<https://vivo.ufl.edu/individual/n34282652999> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n34282652999> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n959712111418> vivo:relatedBy <https://vivo.ufl.edu/individual/n34282652999> .
+
+<https://vivo.ufl.edu/individual/n499545667549> a foaf:Person .
+<https://vivo.ufl.edu/individual/n499545667549> rdfs:label "Michiel Helvensteijn" .
+<https://vivo.ufl.edu/individual/n499545667549> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n59959867062>.
+<https://vivo.ufl.edu/individual/n59959867062> vcard:hasName <https://vivo.ufl.edu/individual/n371946055161> .
+<https://vivo.ufl.edu/individual/n371946055161> vcard:familyName "Helvensteijn" .
+<https://vivo.ufl.edu/individual/n371946055161> vcard:givenName "Michiel" .
+<https://vivo.ufl.edu/individual/n984102396227> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n984102396227> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n499545667549> vivo:relatedBy <https://vivo.ufl.edu/individual/n984102396227> .
+
+<https://vivo.ufl.edu/individual/n190485192325> a foaf:Person .
+<https://vivo.ufl.edu/individual/n190485192325> rdfs:label "Rafael Jimenez" .
+<https://vivo.ufl.edu/individual/n190485192325> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n35423562252>.
+<https://vivo.ufl.edu/individual/n35423562252> vcard:hasName <https://vivo.ufl.edu/individual/n326449224385> .
+<https://vivo.ufl.edu/individual/n326449224385> vcard:familyName "Jimenez" .
+<https://vivo.ufl.edu/individual/n326449224385> vcard:givenName "Rafael" .
+<https://vivo.ufl.edu/individual/n65811678627> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n65811678627> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n190485192325> vivo:relatedBy <https://vivo.ufl.edu/individual/n65811678627> .
+
+<https://vivo.ufl.edu/individual/n0521719607351> a foaf:Person .
+<https://vivo.ufl.edu/individual/n0521719607351> rdfs:label "Seth Carbon" .
+<https://vivo.ufl.edu/individual/n0521719607351> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n315505884178>.
+<https://vivo.ufl.edu/individual/n315505884178> vcard:hasName <https://vivo.ufl.edu/individual/n276477508156> .
+<https://vivo.ufl.edu/individual/n276477508156> vcard:familyName "Carbon" .
+<https://vivo.ufl.edu/individual/n276477508156> vcard:givenName "Seth" .
+<https://vivo.ufl.edu/individual/n414568381148> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n414568381148> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n0521719607351> vivo:relatedBy <https://vivo.ufl.edu/individual/n414568381148> .
+
+<https://vivo.ufl.edu/individual/n99676645196> a foaf:Person .
+<https://vivo.ufl.edu/individual/n99676645196> rdfs:label "Alexander Garcia  Castro" .
+<https://vivo.ufl.edu/individual/n99676645196> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n0466395243292>.
+<https://vivo.ufl.edu/individual/n0466395243292> vcard:hasName <https://vivo.ufl.edu/individual/n529034387568> .
+<https://vivo.ufl.edu/individual/n529034387568> vcard:familyName "Castro" .
+<https://vivo.ufl.edu/individual/n529034387568> vcard:givenName "Alexander" .
+<https://vivo.ufl.edu/individual/n747998717963> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n747998717963> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n99676645196> vivo:relatedBy <https://vivo.ufl.edu/individual/n747998717963> .
+
+<https://vivo.ufl.edu/individual/n031703326002> a foaf:Person .
+<https://vivo.ufl.edu/individual/n031703326002> rdfs:label "Leyla Garcia" .
+<https://vivo.ufl.edu/individual/n031703326002> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n571453627475>.
+<https://vivo.ufl.edu/individual/n571453627475> vcard:hasName <https://vivo.ufl.edu/individual/n319303308677> .
+<https://vivo.ufl.edu/individual/n319303308677> vcard:familyName "Garcia" .
+<https://vivo.ufl.edu/individual/n319303308677> vcard:givenName "Leyla" .
+<https://vivo.ufl.edu/individual/n394870649517> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n394870649517> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n031703326002> vivo:relatedBy <https://vivo.ufl.edu/individual/n394870649517> .
+
+<https://vivo.ufl.edu/individual/n302127294364> a foaf:Person .
+<https://vivo.ufl.edu/individual/n302127294364> rdfs:label "Suzanna Lewis" .
+<https://vivo.ufl.edu/individual/n302127294364> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n221396546273>.
+<https://vivo.ufl.edu/individual/n221396546273> vcard:hasName <https://vivo.ufl.edu/individual/n861557829751> .
+<https://vivo.ufl.edu/individual/n861557829751> vcard:familyName "Lewis" .
+<https://vivo.ufl.edu/individual/n861557829751> vcard:givenName "Suzanna" .
+<https://vivo.ufl.edu/individual/n393537351085> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n393537351085> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n302127294364> vivo:relatedBy <https://vivo.ufl.edu/individual/n393537351085> .
+
+<https://vivo.ufl.edu/individual/n0540963027468> a foaf:Person .
+<https://vivo.ufl.edu/individual/n0540963027468> rdfs:label "Ian Mulvany" .
+<https://vivo.ufl.edu/individual/n0540963027468> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n502579121351>.
+<https://vivo.ufl.edu/individual/n502579121351> vcard:hasName <https://vivo.ufl.edu/individual/n848587618769> .
+<https://vivo.ufl.edu/individual/n848587618769> vcard:familyName "Mulvany" .
+<https://vivo.ufl.edu/individual/n848587618769> vcard:givenName "Ian" .
+<https://vivo.ufl.edu/individual/n994139575667> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n994139575667> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n0540963027468> vivo:relatedBy <https://vivo.ufl.edu/individual/n994139575667> .
+
+<https://vivo.ufl.edu/individual/n823062073086> a foaf:Person .
+<https://vivo.ufl.edu/individual/n823062073086> rdfs:label "Francis  Rowland" .
+<https://vivo.ufl.edu/individual/n823062073086> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n745594588232>.
+<https://vivo.ufl.edu/individual/n745594588232> vcard:hasName <https://vivo.ufl.edu/individual/n343990330382> .
+<https://vivo.ufl.edu/individual/n343990330382> vcard:familyName "Rowland" .
+<https://vivo.ufl.edu/individual/n343990330382> vcard:givenName "Francis" .
+<https://vivo.ufl.edu/individual/n0457807188947> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n0457807188947> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n823062073086> vivo:relatedBy <https://vivo.ufl.edu/individual/n0457807188947> .
+
+<https://vivo.ufl.edu/individual/n236002613198> a foaf:Person .
+<https://vivo.ufl.edu/individual/n236002613198> rdfs:label "Gustavo Adolfo Salazar  Orejuela" .
+<https://vivo.ufl.edu/individual/n236002613198> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n976103322062>.
+<https://vivo.ufl.edu/individual/n976103322062> vcard:hasName <https://vivo.ufl.edu/individual/n000150653411802> .
+<https://vivo.ufl.edu/individual/n000150653411802> vcard:familyName "Orejuela" .
+<https://vivo.ufl.edu/individual/n000150653411802> vcard:givenName "Gustavo" .
+<https://vivo.ufl.edu/individual/n820387509514> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n820387509514> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n236002613198> vivo:relatedBy <https://vivo.ufl.edu/individual/n820387509514> .
+
+<https://vivo.ufl.edu/individual/n770531074443> a foaf:Person .
+<https://vivo.ufl.edu/individual/n770531074443> rdfs:label "Fabian Schreiber " .
+<https://vivo.ufl.edu/individual/n770531074443> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n773143895553>.
+<https://vivo.ufl.edu/individual/n773143895553> vcard:hasName <https://vivo.ufl.edu/individual/n436866971512> .
+<https://vivo.ufl.edu/individual/n436866971512> vcard:familyName "Schreiber" .
+<https://vivo.ufl.edu/individual/n436866971512> vcard:givenName "Fabian" .
+<https://vivo.ufl.edu/individual/n510706499624> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n510706499624> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n770531074443> vivo:relatedBy <https://vivo.ufl.edu/individual/n510706499624> .
+
+<https://vivo.ufl.edu/individual/n909846113553> a foaf:Person .
+<https://vivo.ufl.edu/individual/n909846113553> rdfs:label "Ian  Sillitoe" .
+<https://vivo.ufl.edu/individual/n909846113553> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n7838345666>.
+<https://vivo.ufl.edu/individual/n7838345666> vcard:hasName <https://vivo.ufl.edu/individual/n163211219293> .
+<https://vivo.ufl.edu/individual/n163211219293> vcard:familyName "Sillitoe" .
+<https://vivo.ufl.edu/individual/n163211219293> vcard:givenName "Ian" .
+<https://vivo.ufl.edu/individual/n590219939837> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n590219939837> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n909846113553> vivo:relatedBy <https://vivo.ufl.edu/individual/n590219939837> .
+
+<https://vivo.ufl.edu/individual/n686712453684> a foaf:Person .
+<https://vivo.ufl.edu/individual/n686712453684> rdfs:label "Anil  Thanki" .
+<https://vivo.ufl.edu/individual/n686712453684> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n0534896862909>.
+<https://vivo.ufl.edu/individual/n0534896862909> vcard:hasName <https://vivo.ufl.edu/individual/n255050836878> .
+<https://vivo.ufl.edu/individual/n255050836878> vcard:familyName "Thanki" .
+<https://vivo.ufl.edu/individual/n255050836878> vcard:givenName "Anil" .
+<https://vivo.ufl.edu/individual/n206203583042> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n206203583042> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n686712453684> vivo:relatedBy <https://vivo.ufl.edu/individual/n206203583042> .
+
+<https://vivo.ufl.edu/individual/n481232777707> a foaf:Person .
+<https://vivo.ufl.edu/individual/n481232777707> rdfs:label "Jose Villaveces" .
+<https://vivo.ufl.edu/individual/n481232777707> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n625198090163>.
+<https://vivo.ufl.edu/individual/n625198090163> vcard:hasName <https://vivo.ufl.edu/individual/n851934904749> .
+<https://vivo.ufl.edu/individual/n851934904749> vcard:familyName "Villaveces" .
+<https://vivo.ufl.edu/individual/n851934904749> vcard:givenName "Jose" .
+<https://vivo.ufl.edu/individual/n827599399814> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n827599399814> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n481232777707> vivo:relatedBy <https://vivo.ufl.edu/individual/n827599399814> .
+
+<https://vivo.ufl.edu/individual/n355052170303> a foaf:Person .
+<https://vivo.ufl.edu/individual/n355052170303> rdfs:label "Henning  Hermjakob" .
+<https://vivo.ufl.edu/individual/n355052170303> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n921348267332>.
+<https://vivo.ufl.edu/individual/n921348267332> vcard:hasName <https://vivo.ufl.edu/individual/n868183884582> .
+<https://vivo.ufl.edu/individual/n868183884582> vcard:familyName "Hermjakob" .
+<https://vivo.ufl.edu/individual/n868183884582> vcard:givenName "Henning" .
+<https://vivo.ufl.edu/individual/n573993092968> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n573993092968> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n355052170303> vivo:relatedBy <https://vivo.ufl.edu/individual/n573993092968> .
+
+<https://vivo.ufl.edu/individual/n840367503891> a foaf:Person .
+<https://vivo.ufl.edu/individual/n840367503891> rdfs:label "Manuel Corpas" .
+<https://vivo.ufl.edu/individual/n840367503891> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n558664514318>.
+<https://vivo.ufl.edu/individual/n558664514318> vcard:hasName <https://vivo.ufl.edu/individual/n107842305351> .
+<https://vivo.ufl.edu/individual/n107842305351> vcard:familyName "Corpas" .
+<https://vivo.ufl.edu/individual/n107842305351> vcard:givenName "Manuel" .
+<https://vivo.ufl.edu/individual/n873488808087> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n873488808087> vivo:relates <https://vivo.ufl.edu/individual/n448829026539> .
+<https://vivo.ufl.edu/individual/n840367503891> vivo:relatedBy <https://vivo.ufl.edu/individual/n873488808087> .
+
+<https://vivo.ufl.edu/individual/n709327790688> rdfs:label "BioJS-HGV Viewer: Genetic Variation Visualizer" .
+<https://vivo.ufl.edu/individual/n709327790688> bibo:doi "10.1101/032573" .
+<https://vivo.ufl.edu/individual/n742068401348> a foaf:Person .
+<https://vivo.ufl.edu/individual/n742068401348> rdfs:label "Saket Choudhary" .
+<https://vivo.ufl.edu/individual/n742068401348> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n0614813103339>.
+<https://vivo.ufl.edu/individual/n0614813103339> vcard:hasName <https://vivo.ufl.edu/individual/n723216174687> .
+<https://vivo.ufl.edu/individual/n723216174687> vcard:familyName "Choudhary" .
+<https://vivo.ufl.edu/individual/n723216174687> vcard:givenName "Saket" .
+<https://vivo.ufl.edu/individual/n896067121103> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n896067121103> vivo:relates <https://vivo.ufl.edu/individual/n709327790688> .
+<https://vivo.ufl.edu/individual/n742068401348> vivo:relatedBy <https://vivo.ufl.edu/individual/n896067121103> .
+
+<https://vivo.ufl.edu/individual/n648022254919> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n648022254919> vivo:relates <https://vivo.ufl.edu/individual/n709327790688> .
+<https://vivo.ufl.edu/individual/n031703326002> vivo:relatedBy <https://vivo.ufl.edu/individual/n648022254919> .
+
+<https://vivo.ufl.edu/individual/n313299989673> a foaf:Person .
+<https://vivo.ufl.edu/individual/n313299989673> rdfs:label "Andrew Nightingale" .
+<https://vivo.ufl.edu/individual/n313299989673> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n0515935907655>.
+<https://vivo.ufl.edu/individual/n0515935907655> vcard:hasName <https://vivo.ufl.edu/individual/n550032541053> .
+<https://vivo.ufl.edu/individual/n550032541053> vcard:familyName "Nightingale" .
+<https://vivo.ufl.edu/individual/n550032541053> vcard:givenName "Andrew" .
+<https://vivo.ufl.edu/individual/n827915220701> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n827915220701> vivo:relates <https://vivo.ufl.edu/individual/n709327790688> .
+<https://vivo.ufl.edu/individual/n313299989673> vivo:relatedBy <https://vivo.ufl.edu/individual/n827915220701> .
+
+<https://vivo.ufl.edu/individual/n189801565731> a foaf:Person .
+<https://vivo.ufl.edu/individual/n189801565731> rdfs:label "Maria-Jesus Martin" .
+<https://vivo.ufl.edu/individual/n189801565731> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n341045705467>.
+<https://vivo.ufl.edu/individual/n341045705467> vcard:hasName <https://vivo.ufl.edu/individual/n605117876303> .
+<https://vivo.ufl.edu/individual/n605117876303> vcard:familyName "Martin" .
+<https://vivo.ufl.edu/individual/n605117876303> vcard:givenName "Maria-Jesus" .
+<https://vivo.ufl.edu/individual/n694251888682> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n694251888682> vivo:relates <https://vivo.ufl.edu/individual/n709327790688> .
+<https://vivo.ufl.edu/individual/n189801565731> vivo:relatedBy <https://vivo.ufl.edu/individual/n694251888682> .
+
+<https://vivo.ufl.edu/individual/n465756188659> rdfs:label "BioJS Feature Viewer" .
+<https://vivo.ufl.edu/individual/n465756188659> bibo:abstract "<p>FeatureViewer is a BioJS component that lays out, maps, orients, and renders position-based annotations for protein sequences. SimpleFeatureViewer and DasProteinFeatureViewer are built upon the FeatureViewer. For more information visit https://github.com/biojs/biojs</p>" .
+<https://vivo.ufl.edu/individual/n057893733674> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n057893733674> vivo:relates <https://vivo.ufl.edu/individual/n465756188659> .
+<https://vivo.ufl.edu/individual/n031703326002> vivo:relatedBy <https://vivo.ufl.edu/individual/n057893733674> .
+
+<https://vivo.ufl.edu/individual/n382227284146> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n382227284146> vivo:relates <https://vivo.ufl.edu/individual/n465756188659> .
+<https://vivo.ufl.edu/individual/n24263025905> vivo:relatedBy <https://vivo.ufl.edu/individual/n382227284146> .
+
+<https://vivo.ufl.edu/individual/n510856980295> a foaf:Person .
+<https://vivo.ufl.edu/individual/n510856980295> rdfs:label "Moreno, Pablo" .
+<https://vivo.ufl.edu/individual/n510856980295> obo:ARG_2000028 <https://vivo.ufl.edu/individual/n153561417725>.
+<https://vivo.ufl.edu/individual/n153561417725> vcard:hasName <https://vivo.ufl.edu/individual/n131222154112> .
+<https://vivo.ufl.edu/individual/n131222154112> vcard:familyName "Moreno" .
+<https://vivo.ufl.edu/individual/n131222154112> vcard:givenName "Pablo" .
+<https://vivo.ufl.edu/individual/n182088503283> a vivo:Authorship .
+<https://vivo.ufl.edu/individual/n182088503283> vivo:relates <https://vivo.ufl.edu/individual/n465756188659> .
+<https://vivo.ufl.edu/individual/n510856980295> vivo:relatedBy <https://vivo.ufl.edu/individual/n182088503283> .
+
+
